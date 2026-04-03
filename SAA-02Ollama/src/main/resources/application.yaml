@@ -1,0 +1,22 @@
+server:
+  port: 8003
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-02Ollama
+  ai:
+    openai:
+      api-key: ${QiNiu_Api}
+      base-url: https://api.qnaigc.com
+      chat:
+        options:
+          model: gemini-3.0-flash-preview
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3.5:0.8b
