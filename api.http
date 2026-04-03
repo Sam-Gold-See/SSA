@@ -1,0 +1,47 @@
+### 04-stream/chatFlux4
+GET localhost:8004/stream/chatFlux4
+Accept: application/json
+
+### 04-stream/chatFlux3
+GET localhost:8004/stream/chatFlux3
+Accept: application/json
+
+### 04-stream/chatFlux2
+GET localhost:8004/stream/chatFlux2
+Accept: application/json
+
+### 04-stream/chatFlux1
+GET localhost:8004/stream/chatFlux1
+Accept: application/json
+
+### 03-chatClient/chatClientV2/doChat
+GET localhost:8003/chatClientV2/doChat
+Accept: application/json
+
+### 03-chatClient/doChat
+GET localhost:8003/chatClient/doChat
+Accept: application/json
+
+### 03-chatModel/modelDoChat
+GET http://localhost:8003/chatModel/modelDoChat
+Accept: application/json
+
+### 03-chatModel/clientDoChat
+GET http://localhost:8003/chatModel/clientDoChat
+Accept: application/json
+
+### 02-streamChat
+GET localhost:8002/ollama/streamChat
+Accept: application/json
+
+### 02-doChat
+GET http://localhost:8002/ollama/doChat
+Accept: application/json
+
+### 01-streamChat
+GET http://localhost:8001/hello/streamChat
+Accept: application/json
+
+### 01-doChat
+GET http://localhost:8001/hello/doChat
+Accept: application/json
