@@ -1,3 +1,23 @@
+### 06-promptTemplate/chat5
+GET localhost:8006/promptTemplate/chat5?question=牡丹花
+Accept: application/json
+
+### 06-promptTemplate/chat4
+GET localhost:8006/promptTemplate/chat4?question=牡丹花
+Accept: application/json
+
+### 06-promptTemplate/chat3
+GET localhost:8006/promptTemplate/chat3?systemTopic=Java&userTopic=虚拟线程
+Accept: application/json
+
+### 06-promptTemplate/chat2
+GET localhost:8006/promptTemplate/chat2?topic=Java&outputFormat=html
+Accept: application/json
+
+### 06-promptTemplate/chat
+GET localhost:8006/promptTemplate/chat?topic=Java&outputFormat=html&wordCount=200
+Accept: application/json
+
 ### 05-prompt/chat5
 GET localhost:8005/prompt/chat5?city=北京
 Accept: application/json
