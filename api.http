@@ -1,8 +1,12 @@
-### 07-/structuredOutput/chat2
+### 08-chatMemory/chat
+GET localhost:8008/chatMemory/chat?msg=再加上5&userId=123
+Accept: application/json
+
+### 07-structuredOutput/chat2
 GET localhost:8007/structuredOutput/chat2?name=李四&email=123@qq.com
 Accept: application/json
 
-### 07-/structuredOutput/chat
+### 07-structuredOutput/chat
 GET localhost:8007/structuredOutput/chat?name=张三&email=123@qq.com
 Accept: application/json
 
