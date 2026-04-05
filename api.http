@@ -1,3 +1,11 @@
+### 07-/structuredOutput/chat2
+GET localhost:8007/structuredOutput/chat2?name=李四&email=123@qq.com
+Accept: application/json
+
+### 07-/structuredOutput/chat
+GET localhost:8007/structuredOutput/chat?name=张三&email=123@qq.com
+Accept: application/json
+
 ### 06-promptTemplate/chat5
 GET localhost:8006/promptTemplate/chat5?question=牡丹花
 Accept: application/json
