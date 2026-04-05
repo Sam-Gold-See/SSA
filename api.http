@@ -1,3 +1,23 @@
+### 05-prompt/chat5
+GET localhost:8005/prompt/chat5?city=北京
+Accept: application/json
+
+### 05-prompt/chat4
+GET localhost:8005/prompt/chat4?question=讲一个故事
+Accept: application/json
+
+### 05-prompt/chat3
+GET localhost:8005/prompt/chat3?question=讲一个故事
+Accept: application/json
+
+### 05-prompt/chat2
+GET localhost:8005/prompt/chat2?question=讲一个故事
+Accept: application/json
+
+### 05-prompt/chat
+GET localhost:8005/prompt/chat?question=介绍一下火锅
+Accept: application/json
+
 ### 04-stream/chatFlux4
 GET localhost:8004/stream/chatFlux4
 Accept: application/json
