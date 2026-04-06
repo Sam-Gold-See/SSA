@@ -1,3 +1,7 @@
+### 12-rag
+GET localhost:8012/rag?msg=A0001 是什么意思
+Accept: application/json
+
 ### 11-text2Embed/getAll
 GET localhost:8011/embed2Vector/getAll?msg=Java
 Accept: application/json
