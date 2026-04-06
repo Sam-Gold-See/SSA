@@ -1,3 +1,7 @@
+### 09-t2i/image
+GET localhost:8009/t2i/image
+Accept: application/json
+
 ### 08-chatMemory/chat
 GET localhost:8008/chatMemory/chat?msg=再加上5&userId=123
 Accept: application/json

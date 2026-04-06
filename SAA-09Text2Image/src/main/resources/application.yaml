@@ -1,0 +1,25 @@
+server:
+  port: 8009
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-09Text2Image
+  ai:
+    openai:
+      api-key: ${QiNiu_Api}
+      base-url: https://api.qnaigc.com
+      chat:
+        options:
+          model: gemini-3.0-flash-preview
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      connect-timeout: 3
+      timeout: 2
