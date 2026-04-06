@@ -1,3 +1,15 @@
+### 11-text2Embed/getAll
+GET localhost:8011/embed2Vector/getAll?msg=Java
+Accept: application/json
+
+### 11-text2Embed/add
+GET localhost:8011/embed2Vector/add
+Accept: application/json
+
+### 11-text2Embed
+GET localhost:8011/text2Embed?msg=射雕英雄传
+Accept: application/json
+
 ### 09-t2i/image
 GET localhost:8009/t2i/image
 Accept: application/json
