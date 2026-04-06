@@ -1,3 +1,7 @@
+### 13-toolCall/chat
+GET localhost:8013/toolCall/chat
+Accept: application/json
+
 ### 12-rag
 GET localhost:8012/rag?msg=A0001 是什么意思
 Accept: application/json
