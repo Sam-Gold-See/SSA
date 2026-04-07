@@ -1,3 +1,7 @@
+### 15-mcpClient/chat
+GET localhost:8015/mcpClient/chat
+Accept: application/json
+
 ### 13-toolCall/chat
 GET localhost:8013/toolCall/chat
 Accept: application/json
